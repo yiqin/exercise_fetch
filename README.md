@@ -1,4 +1,4 @@
-Yi-Qin-exercise_fetch_archive
+exercise_fetch_archive
 =============================
 
 This exercise is intended to test a developer's basic familiarity with iOS development.
