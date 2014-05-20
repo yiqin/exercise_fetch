@@ -1,4 +1,4 @@
-exercise_fetch_archive
+exercise_fetch
 =============================
 
 This exercise is intended to test a developer's basic familiarity with iOS development.
