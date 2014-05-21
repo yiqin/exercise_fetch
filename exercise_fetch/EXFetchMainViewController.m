@@ -23,6 +23,7 @@
                              bundle: nibBundleOrNil])
     {
         textFetcher=[[EXTextFetcher alloc] init];
+        [textFetcher setListener:self];
         i = 0;
         lines = [[NSMutableString alloc] init];
     }
@@ -32,7 +33,6 @@
 -(IBAction)fetchNextLine: (id)sender
 {
     [textFetcher fetchTextForLine:i++];
-    [textFetcher setListener:self];
     fetchButton.userInteractionEnabled = NO;
 }
 
